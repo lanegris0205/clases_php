@@ -1,5 +1,7 @@
 <?php
- session_unset();
- session_destroy();
- header("location:http://localhost\clases_php\login_mysql\loginsql.php");
+include_once('Usuario.php');
+
+$usuario = new Usuario();
+$usuario->cerrarsesion();
+
 ?>

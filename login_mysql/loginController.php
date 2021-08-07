@@ -1,5 +1,5 @@
 <?php
-include_once ('Database1.php');
+/*include_once ('Database1.php');
 
 $email = $_REQUEST['email'];
 $pass = $_REQUEST['password'];
@@ -20,6 +20,6 @@ if ($usuario) {
     $pahtOrigin = $aPahtOrigin[0];
     var_dump($aPahtOrigin);
     header("Location: $pahtOrigin?msg=$msg");
-}
+}*/
 ?>
  
